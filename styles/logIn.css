@@ -1,0 +1,46 @@
+.intro_log{
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #2F4F4F;
+}
+form{
+    padding-top: 100px;
+    margin: 0 auto;
+    bacground: #fff;
+    width: 450px;
+    height: 500px;
+}
+.reg-group{
+    margin: 10px;
+    padding: 5px;
+}
+label{
+    padding-left:10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+input{
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+}
+button{
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color: #fff;
+    background: #5200a5;
+    border: none;
+    font-size: 15px;
+    border-radius: 20px/20px;
+    border: none;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}

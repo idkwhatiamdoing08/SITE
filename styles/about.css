@@ -1,0 +1,18 @@
+.img img {
+    width: 100%;
+    max-width: 432px;
+    height: 648px;
+}
+.container_inner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.intro_info{
+    width: 450px;
+}
+.info_text{
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+}
