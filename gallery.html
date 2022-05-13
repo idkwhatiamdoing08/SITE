@@ -5,6 +5,8 @@
     <title>Title</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/gallerry.css">
+    <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="scripts/gallery.js"></script>
 </head>
 <body>
 <header class="header">
@@ -24,40 +26,46 @@
         </div>
     </div>
 </header>
-<div class="intro">
+
     <div class="gallery">
         <ul>
-            <li><img src="img/001.jpg" onclick="show(1)"></li>
-            <li><img src="img/002.jpg" onclick="show(2)"></li>
-            <li><img src="img/003.jpg" onclick="show(3)"></li>
-            <li><img src="img/004.jpg" onclick="show(4)"></li>
+            <li><img src="img/001.jpg" onclick="Show(1)"></li>
+            <li><img src="img/002.jpg" onclick="Show(2)"></li>
+            <li><img src="img/003.jpg" onclick="Show(3)"></li>
+            <li><img src="img/004.jpg" onclick="Show(4)"></li>
         </ul>
         <ul>
-            <li><img src="img/005.jpg" onclick="show(5)"></li>
-            <li><img src="img/006.jpg" onclick="show(6)"></li>
-            <li><img src="img/007.jpg" onclick="show(7)"></li>
-            <li><img src="img/008.jpg" onclick="show(8)"></li>
+            <li><img src="img/005.jpg" onclick="Show(5)"></li>
+            <li><img src="img/006.jpg" onclick="Show(6)"></li>
+            <li><img src="img/007.jpg" onclick="Show(7)"></li>
+            <li><img src="img/008.jpg" onclick="Show(8)"></li>
         </ul>
         <ul>
-            <li><img src="img/009.jpg" onclick="show(9)"></li>
-            <li><img src="img/010.jpg" onclick="show(10)"></li>
-            <li><img src="img/011.jpg" onclick="show(11)"></li>
-            <li><img src="img/012.jpg" onclick="show(12)"></li>
+            <li><img src="img/009.jpg" onclick="Show(9)"></li>
+            <li><img src="img/010.jpg" onclick="Show(10)"></li>
+            <li><img src="img/011.jpg" onclick="Show(11)"></li>
+            <li><img src="img/012.jpg" onclick="Show(12)"></li>
         </ul>
         <ul>
-            <li><img src="img/013.jpg" onclick="show(13)"></li>
-            <li><img src="img/014.jpg" onclick="show(14)"></li>
-            <li><img src="img/015.jpg" onclick="show(15)"></li>
-            <li><img src="img/016.jpg" onclick="show(16)"></li>
+            <li><img src="img/013.jpg" onclick="Show(13)"></li>
+            <li><img src="img/014.jpg" onclick="Show(14)"></li>
+            <li><img src="img/015.jpg" onclick="Show(15)"></li>
+            <li><img src="img/016.jpg" onclick="Show(16)"></li>
         </ul>
     </div>
-    <div class="modal">
+    <div class="main">
         <div class="content_gallery">
-            <button><img src="" alt="" class="close"></button>
-        </div>
-        <div class="main_gallery">
-            <div class="button" onclick="Leftclick()">
-                <button></button>
+            <button class="btn_close"><img src="img/close.png" width="40" alt=""></button>
+            <div class="main_gallery">
+                <div class="buttons" onclick="Leftclick()">
+                    <button><img class="but" src="img/left.png"></button>
+                </div>
+                <div class="photo">
+                    <img id="main_img" >
+                </div>
+                <div class="buttons" onclick="Rightclick()">
+                    <button><img class="but" src="img/right.png"></button>
+                </div>
             </div>
         </div>
     </div>
