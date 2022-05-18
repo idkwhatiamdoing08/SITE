@@ -71,7 +71,7 @@
             <div class="exit">
             <?php else:?>
                 <p>Привет <?=$_COOKIE['user']?>. Чтобы выйти нажмите <a href="templates/exit.php">здесь</a></p>
-                <p>Чтобы перейти в личный кабинет нажмите <a href="education.html">здесь</a></p>
+                <p>Чтобы вернуться на сайт нажмите <a href="index.html">здесь</a></p>
             <?php endif;?>
             </div>
         </div>
