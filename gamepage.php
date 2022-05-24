@@ -33,6 +33,6 @@
           <a href="records.html">Рекорды и сохранение результата</a>
           <br><br>
       </div>
-      <script  src="scripts/eight.js"></script>
+      <script  src="scripts/game.js"></script>
 </body>
 </html>
