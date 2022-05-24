@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Рекорды и запись</title>
+    <link rel="stylesheet" href="styles/game.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Tinos&subset=cyrillic');
+    </style>
+</head>
+
+<body>
+
+<a class="wrapper">
+    <h1>Игра «Найди пару»</h1>
+    <div>
+
+    </div>
+    <a href="gamepage.php">Назад в игру</a> 
+    </div>
+    <div><br><br>
+        Записать результат
+        <table style="width:200px;" id="tbl" align="center">
+
+            <tr>
+                <td>Имя</td>
+                <td>
+                    <input id="txtpname" type="text" class="c1" /></td>
+            </tr>
+            <tr>
+                <td>Дата</td>
+                <td>
+                    <input type="date" id="txtpaddr" class="c1"></input></td>
+            </tr>
+            <tr>
+                <td>Очки</td>
+                <td>
+                    <input id="txtpcity" type="text" class="c1"/></td>
+
+
+
+            </tr>
+            
+
+        </table>
+        <p>
+            <input id="btnsave" type="button" value="Сохранить" />
+            <input id="btnclear" type="button" value="Очистить поля" /><br>
+            <input id="btnclearstorage" type="button" value="Очистить таблицу рекордов" />
+        </p>
+
+    </div>
+
+    <div id="dvcontainer"></div>
+    </div>
+    </script>
+
+    <script  src="scripts/result.js"></script>
+
+
+
+</body>
+</html>
