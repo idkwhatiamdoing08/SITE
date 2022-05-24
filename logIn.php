@@ -14,8 +14,8 @@
     <div class="container">
         <div class="header_inner">
             <div class="logo">
-                Home
-            </div>
+                Log In
+                </div>
             <nav class="nav">
                 <a class="nav_link" href="index.html">Home</a>
                 <a class="nav_link" href="about.html">About me</a>
@@ -23,6 +23,7 @@
                 <a class="nav_link" href="labs.html">Labs</a>
                 <a class="nav_link" href="gallery.html">Gallery</a>
                 <a class="nav_link" href="logIn.php">Log in</a>
+                <a class="nav_link" href="gamepage.php">Game</a>
             </nav>
         </div>
     </div>
